@@ -102,7 +102,8 @@ var FFCommunityMapWidget = function(options, map_options, link) {
   
   var options = L.extend({
     divId: 'map',
-    geoJSONUrl: 'http://weimarnetz.de/ffmap/ffMap.json',
+    //geoJSONUrl: 'http://weimarnetz.de/ffmap/ffMap.json',
+    geoJSONUrl: 'http://freifunk.net/map/ffGeoJson.json',
     getPopupHTML: renderPopup,
     zoom: 5,
     maxZoom: 10,
